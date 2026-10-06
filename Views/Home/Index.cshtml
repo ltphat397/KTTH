@@ -1,0 +1,297 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!-- 1. HEADER VÀ NAVIGATION-->
+<header class="navbar-amazon">
+    <div class="navbar-fixed-top">
+        <div class="nav-logo">
+            <span class="logo-text">amazon</span>
+        </div>
+        <div class="nav-location">
+            <i class="fas fa-map-marker-alt"></i>
+            <span class="line-1">Deliver to</span>
+            <span class="line-2">Vietnam</span>
+        </div>
+    </div>
+    <div class="nav-search">
+        <select class="search-select">
+            <option>All</option>
+        </select>
+        <input type="text" class="search-input" placeholder="Search Amazon" />
+        <button class="search-btn"><i class="fas fa-caret-down"></i></button>
+    </div>
+    <div class="nav right">
+        <div class="nav-item">
+            <span class="line-1">EN <i class="fas fa-caret-down"></i></span>
+        </div>
+        <div class="nav-item">
+            <span class="line-1">Hello, sign in</span>
+            <span class="line-2">Account & Lists <i class="fas fa-caret-down"></i></span>
+        </div>
+        <div class="nav-item">
+            <span class="line-1">Returns</span>
+            <span class="line-2">& Orders</span>
+        </div>
+        <div class="nav-item nav-cart">
+            <i class="fas fa-shopping-cart fa-2x"></i>
+            <span class="cart-count">4</span>
+            <span class="cart-text">Cart</span>
+        </div>
+    </div>
+    <!--Sub Navigation-->
+    <div class="nav-sub">
+        <ul>
+            <li><a href=""><i class="fas fa-bars">All</i></a></li>
+            <li><a href="https://www.amazon.com/gp/goldbox?ref_=nav_cs_gb">Today's Deals</a></li>
+            <li><a href="https://www.amazon.com/gp/video/servicerestricted">Prime Video</a></li>
+            <li><a href="https://www.amazon.com/registries?ref_=nav_cs_registry">Registry</a></li>
+            <li><a href="https://www.amazon.com/gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc">Gift Cards</a></li>
+            <li><a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_customerservice">Customer Service</a></li>
+            <li><a href="https://www.amazon.com/b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell">Sell</a></li>
+        </ul>
+    </div>
+</header>
+<main class="main-container">
+
+    <!-- Hero Banner (Nếu bạn dùng ảnh làm banner background) -->
+    <section class="hero-banner">
+        <img src="~/Content/Images/backgr.jpg" />" alt="Toys for little ones" class="hero-img" />
+    </section>
+
+    <!-- Grid 4 Cột - Dòng 1 -->
+    <section class="grid-cards">
+        <!-- Ô 1: Get your game on -->
+        <div class="card">
+            <h3>Get your game on</h3>
+            <div class="card-img-single">
+                <img src="~/Content/Images/41gk0-eoy4L._SR210,210_.jpg" />"" alt="Gaming" />
+            </div>
+            <a href="#">Shop gaming</a>
+        </div>
+
+        <!-- Ô 2: Shop Fashion for less -->
+        <div class="card">
+            <h3>Shop Fashion for less</h3>
+            <div class="card-grid-2x2">
+                <div>
+                    <img src="~/Content/Images/314AasupNAL._SR210,210_.jpg" />"" alt="Jeans" /><p>Jeans under $50</p>
+                </div>
+                <div>
+                    <img src="~/Content/Images/31U967D6S3L._SR210,210_.jpg" />"" alt="Tops" /><p>Tops under $25</p>
+                </div>
+                <div>
+                    <img src="~/Content/Images/31zR9dINh6L._SR210,210_.jpg" />" alt="Dresses" /><p>Dresses under $30</p>
+                </div>
+                <div>
+                    <img src="~/Content/Images/41gk0-eoy4L._SR210,210_.jpg" />"" alt="Shoes" /><p>Shoes under $50</p>
+                </div>
+            </div>
+            <a href="#">See all deals</a>
+        </div>
+
+        <!-- Ô 3: Shop for your home essentials -->
+        <div class="card">
+            <h3>Shop for your home essentials</h3>
+            <div class="card-grid-2x2">
+                <div>
+                    <img src="~/Content/Images/41opB3I6bHL._SR210,210_.jpg" />"~/Images/clean.jpg" alt="Cleaning" /><p>Cleaning Tools</p>
+                </div>
+                <div>
+                    <img src="~/Content/Images/41Tsj3W9JHL._SR210,210_.jpg" />"~/Images/storage.jpg" alt="Storage" /><p>Home Storage</p>
+                </div>
+                <div>
+                    <img src="~/Content/Images/41wfXsKdqEL._SR210,210_.jpg" />"~/Images/decor.jpg" alt="Decor" /><p>Home Decor</p>
+                </div>
+                <div>
+                    <img src="~/Content/Images/41gk0-eoy4L._SR210,210_.jpg" />"~/Images/bedding.jpg" alt="Bedding" /><p>Bedding</p>
+                </div>
+            </div>
+            <a href="#">Discover more in Home</a>
+        </div>
+
+        <!-- Ô 4: Refresh your space -->
+        <div class="card">
+            <h3>Refresh your space</h3>
+            <div class="card-grid-2x2">
+                <div>
+                    <img src="~/Content/Images/41bvMGlDk4L._SR210,210_.jpg" />"~/Images/dining.jpg" alt="Dining" /><p>Dining</p>
+                </div>
+                <div>
+                    <img src="~/Content/Images/41opB3I6bHL._SR210,210_.jpg" />="~/Images/home.jpg" alt="Home" /><p>Home</p>
+                </div>
+                <div>
+                    <img src="~/Content/Images/31zR9dINh6L._SR210,210_.jpg" />~/Images/kitchen.jpg" alt="Kitchen" /><p>Kitchen</p>
+                </div>
+                <div>
+                    <img src="~/Content/Images/314AasupNAL._SR210,210_.jpg" />"~/Images/health.jpg" alt="Health" /><p>Health and Beauty</p>
+                </div>
+            </div>
+            <a href="#">See more</a>
+        </div>
+    </section>
+
+    <!-- Grid 4 Cột - Dòng 2 -->
+    <section class="grid-cards">
+        <!-- Ô 5: New home arrivals under $50 -->
+        <div class="card">
+            <h3>New home arrivals under $50</h3>
+            <div class="card-grid-2x2">
+                <div>
+                    <img src="~/Content/Images/41opB3I6bHL._SR210,210_.jpg" />"~/Images/kitchen-dining.jpg" alt="Kitchen" /><p>Kitchen & Dining</p>
+                </div>
+                <div>
+                    <img src="~/Content/Images/41gk0-eoy4L._SR210,210_.jpg" />~/Images/home-imp.jpg" alt="Home" /><p>Home Improvement</p>
+                </div>
+                <div>
+                    <img src="~/Content/Images/41wfXsKdqEL._SR210,210_.jpg" />"~/Images/decor2.jpg" alt="Decor" /><p>Décor</p>
+                </div>
+                <div>
+                    <img src="~/Content/Images/31U967D6S3L._SR210,210_.jpg" />"~/Images/bath.jpg" alt="Bath" /><p>Bedding & Bath</p>
+                </div>
+            </div>
+            <a href="#">Shop the latest from Home</a>
+        </div>
+
+        <!-- Ô 6: Top categories in Kitchen appliances -->
+        <div class="card">
+            <h3>Top categories in Kitchen appliances</h3>
+            <div class="card-img-single">
+                <img src="~/Content/Images/backgr.jpg" />"~/Images/cooker.jpg" alt="Cooker" />
+                <p>Cooker</p>
+            </div>
+            <a href="#">Explore all products in Kitchen</a>
+        </div>
+
+        <!-- Ô 7: Fashion trends you like -->
+        <div class="card">
+            <h3>Fashion trends you like</h3>
+            <div class="card-grid-2x2">
+                <div>
+                    <img src="~/Content/Images/31U967D6S3L._SR210,210_.jpg" />"~/Images/dress2.jpg" alt="Dresses" /><p>Dresses</p>
+                </div>
+                <div>
+                    <img src="~/Content/Images/41bvMGlDk4L._SR210,210_.jpg" />="~/Images/knits.jpg" alt="Knits" /><p>Knits</p>
+                </div>
+                <div>
+                    <img src="~/Content/Images/41wfXsKdqEL._SR210,210_.jpg" />="~/Images/jackets.jpg" alt="Jackets" /><p>Jackets</p>
+                </div>
+                <div>
+                    <img src="~/Content/Images/41Tsj3W9JHL._SR210,210_.jpg" />"~/Images/jewelry.jpg" alt="Jewelry" /><p>Jewelry</p>
+                </div>
+            </div>
+            <a href="#">Explore more</a>
+        </div>
+
+        <!-- Ô 8: Easy updates for elevated spaces -->
+        <div class="card">
+            <h3>Easy updates for elevated spaces</h3>
+            <div class="card-grid-2x2">
+                <div>
+                    <img src="~/Content/Images/41gk0-eoy4L._SR210,210_.jpg" />"~/Images/baskets.jpg" alt="Baskets" /><p>Baskets & hampers</p>
+                </div>
+                <div>
+                    <img src="~/Content/Images/41opB3I6bHL._SR210,210_.jpg" />="~/Images/hardware.jpg" alt="Hardware" /><p>Hardware</p>
+                </div>
+                <div>
+                    <img src="~/Content/Images/31U967D6S3L._SR210,210_.jpg" />="~/Images/furniture.jpg" alt="Furniture" /><p>Accent furniture</p>
+                </div>
+                <div>
+                    <img src="~/Content/Images/314AasupNAL._SR210,210_.jpg" />"~/Images/paint.jpg" alt="Paint" /><p>Wallpaper & paint</p>
+                </div>
+            </div>
+            <a href="#">Shop home products</a>
+        </div>
+    </section>
+
+    <!-- Dòng dải sản phẩm cuộn ngang (Related to items you've viewed) -->
+    <section class="product-carousel-section">
+        <h3>Related to items you've viewed <a href="#">See more</a></h3>
+        <div class="product-carousel">
+            <div class="product-item">
+                <img src="~/Content/Images/314AasupNAL._SR210,210_.jpg" />
+            </div>
+            <div class="product-item">
+                <img src="~/Content/Images/31U967D6S3L._SR210,210_.jpg" />
+            </div>
+            <div class="product-item">
+                <img src="~/Content/Images/31zR9dINh6L._SR210,210_.jpg" />
+            </div>
+            <div class="product-item">
+                <img src="~/Content/Images/41bvMGlDk4L._SR210,210_.jpg" />
+            </div>
+            <div class="product-item">
+                <img src="~/Content/Images/41gk0-eoy4L._SR210,210_.jpg" />
+            </div>
+            <div class="product-item">
+                <img src="~/Content/Images/41opB3I6bHL._SR210,210_.jpg" />
+            </div>
+            <div class="product-item">
+                <img src="~/Content/Images/41Tsj3W9JHL._SR210,210_.jpg" />
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- 3. FOOTER -->
+<footer class="footer-amazon">
+    <div class="footer-back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+        Back to top
+    </div>
+
+    <div class="footer-links-grid">
+        <div class="col">
+            <h4>Amazon Music</h4>
+            <p>Stream millions of songs</p>
+            <h4>Amazon Business</h4>
+            <p>Everything For Your Business</p>
+        </div>
+        <div class="col">
+            <h4>Amazon Ads</h4>
+            <p>Reach customers wherever they spend time</p>
+            <h4>AmazonGlobal</h4>
+            <p>Ship Orders Internationally</p>
+        </div>
+        <div class="col">
+            <h4>6pm</h4>
+            <p>Score deals on fashion brands</p>
+            <h4>Amazon Web Services</h4>
+            <p>Scalable Cloud Computing Services</p>
+        </div>
+        <div class="col">
+            <h4>AbeBooks</h4>
+            <p>Books, art & collectibles</p>
+            <h4>Audible</h4>
+            <p>Listen to Books & Original Audio Performances</p>
+        </div>
+        <div class="col">
+            <h4>ACX</h4>
+            <p>Audiobook Publishing Made Easy</p>
+            <h4>Box Office Mojo</h4>
+            <p>Find Movie Box Office Data</p>
+        </div>
+        <div class="col">
+            <h4>Sell on Amazon</h4>
+            <p>Start a Selling Account</p>
+            <h4>Goodreads</h4>
+            <p>Book reviews & recommendations</p>
+        </div>
+        <div class="col">
+            <h4>Veeqo</h4>
+            <p>Shipping Software Inventory Management</p>
+            <h4>IMDb</h4>
+            <p>Movies, TV & Celebrities</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>
+            <a href="#">Conditions of Use</a>
+            <a href="#">Privacy Notice</a>
+            <a href="#">Consumer Health Data Privacy Disclosure</a>
+            <a href="#">Your Ads Privacy Choices</a>
+        </p>
+        <p>© 1996-2025, Amazon.com, Inc. or its affiliates</p>
+    </div>
+</footer>
+
